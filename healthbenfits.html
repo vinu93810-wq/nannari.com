@@ -157,6 +157,12 @@
     background-position: center 15%; /* Keeps the focus on the important part of the image */
   }
 }
+.hero-box { /* ensure default mobile-friendly fallback (already present) */ }
+@media (max-width: 768px) {
+    .hero-box {
+        background-image: url("https://uploads.onecompiler.io/42u9xvqj6/44arrmvps/WhatsApp%20Image%202026-01-16%20at%2017.37.16.jpeg");
+    }
+}
 .nannari-footer {
     background-color: #1a1a1a; /* Dark Premium Background */
     color: #ffffff;
